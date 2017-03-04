@@ -1,3 +1,4 @@
+# RUBOCOP
 class HomeTask3
   def initialize(max)
     @max = max
@@ -11,7 +12,9 @@ class HomeTask3
     output
   end
 
-  def is_prime?(num)
+  private
+
+  def prime?(num)
     return false if num <= 1
     Math.sqrt(num).to_i.downto(2).each { |i| return false if (num % i).zero? }
     true
