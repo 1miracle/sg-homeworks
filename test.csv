@@ -1,2 +1,5 @@
-user,date,temperature
+user,date,action
 1,02.12.2017-17:16,Successful authorization
+1,02.12.2017-17:14,Incorrect password during authorization
+1,02.12.2017-17:13,Successful authorization
+1,02.12.2017-17:11,Successful authorization
